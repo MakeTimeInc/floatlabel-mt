@@ -27,7 +27,7 @@
   "authors": [
     "Andrew Johnson <andrew.johnson@maketime.io>"
   ],
-  "main": "",
+  "main": "floatlabels.js",
   "moduleType": [],
-  "private": true
+  "private": false
 }
