@@ -184,6 +184,7 @@
            }
 
          }
+         self.$label.text(self.$element.attr('placeholder'));
          self.$element.addClass('active-floatlabel');
        }, 50);
      },
