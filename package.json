@@ -5,7 +5,7 @@
   "main": "floatlabel.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MakeTimeInc/floatlabel-mt.git",
+    "url": "git+https://github.com/MakeTimeInc/floatlabel-mt.git"
   },
   "author": "",
   "license": "ISC",
