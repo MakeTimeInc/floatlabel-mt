@@ -1,9 +1,9 @@
 {
   "name": "floatlabel_mt",
-  "version": "1.0.3",
-  "repo": "droojohnsonmt/floatlabel_mt",
+  "version": "1.0.0",
+  "repo": "clubdesign/floatlabels.js",
   "homepage": "https://github.com/droojohnsonmt/floatlabel_mt",
-  "description": "Follows the famous Float Label Pattern. Built on jQuery. Customized for MT.",
+  "description": "Follows the famous Float Label Pattern. Built on jQuery.",
   "keywords": [
     "floatlabel",
     "float",
@@ -27,7 +27,7 @@
   "authors": [
     "Andrew Johnson <andrew.johnson@maketime.io>"
   ],
-  "main": "floatlabels.js",
+  "main": "",
   "moduleType": [],
-  "private": false
+  "private": true
 }

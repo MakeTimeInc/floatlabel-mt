@@ -7,33 +7,18 @@
  * Adapted for bootstrap projects by Michael Levin 2/20/14
  */
 
- console.log("floatlabel loaded");
  (function($, window, document, undefined) {
    var pluginName = "floatlabel",
-     /*defaults = {
+     defaults = {
        slideInput: true,
        labelStartTop: '0px',
-       labelEndTop: '12px',
-       paddingOffset: '20px',
+       labelEndTop: '0px',
+       paddingOffset: '15px',
        transitionDuration: 0.1,
        transitionEasing: 'ease-in-out',
        labelClass: '',
        typeMatches: /text|password|email|number|search|url|tel/,
        focusColor: '#01A580',
-       errorColor: '#FF00FF',
-       blurColor: '#666666'
-     };*/
-     defaults = {
-       slideInput: true,
-       labelStartTop: '0px',
-       labelEndTop: '12px',
-       paddingOffset: '20px',
-       transitionDuration: 0.15,
-       transitionEasing: 'cubic-bezier(0.42, 0.00, 0.58, 1.00)',
-       labelClass: '',
-       typeMatches: /text|password|email|number|search|url|tel/,
-       focusColor: '#01A580',
-       errorColor: '#FF00FF',
        blurColor: '#666666'
      };
 
@@ -112,15 +97,9 @@
          });
        });
        thisElement.on('focus', function() {
-         if (thisElement.hasClass('is-error')){
-         thisElement.prev('label').css({
-           'color': self.settings.errorColor
-         });
-       } else {
          thisElement.prev('label').css({
            'color': self.settings.focusColor
          });
-       }
        });
        window.setTimeout(function() {
          self.$label.css(animationCss);
@@ -184,7 +163,6 @@
            }
 
          }
-         self.$label.text(self.$element.attr('placeholder'));
          self.$element.addClass('active-floatlabel');
        }, 50);
      },
