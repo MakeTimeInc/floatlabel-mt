@@ -1,0 +1,17 @@
+{
+  "name": "floatlabel-mt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "floatlabel.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakeTimeInc/floatlabel-mt.git",
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MakeTimeInc/floatlabel-mt/issues"
+   },
+   "homepage": "https://github.com/MakeTimeInc/floatlabel-mt#readme"
+}
+

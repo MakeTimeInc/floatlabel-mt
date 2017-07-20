@@ -1,8 +1,8 @@
 {
-  "name": "floatlabel_mt",
+  "name": "floatlabel-mt",
   "version": "1.0.0",
-  "repo": "clubdesign/floatlabels.js",
-  "homepage": "https://github.com/droojohnsonmt/floatlabel_mt",
+  "repo": "MakeTimeInc/floatlabels.js",
+  "homepage": "https://github.com/droojohnsonmt/floatlabel-mt",
   "description": "Follows the famous Float Label Pattern. Built on jQuery.",
   "keywords": [
     "floatlabel",
